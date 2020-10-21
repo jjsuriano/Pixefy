@@ -15,12 +15,12 @@
 <path d="M21 538V453L74.5 400H158.5L21 538Z" fill="#F58839"/>
 <path d="M146 582H61.5L243.5 400H327.5L146 582Z" fill="#F58839"/>
 <circle cx="109.5" cy="40.5" r="40.5" fill="#5C5C5C"/>
-<circle cx="109" cy="40" r="32" fill="#FDE7C6">
-    <animate attributeName="fill" values="#FDE7C6;#FF9900;#FDE7C6" dur="1.5s" repeatCount="indefinite" />
+<circle cx="109" cy="40" r="32" fill="#FCFCFC">
+    <animate attributeName="fill" values="#FCFCFC;#FFD600;#FCFCFC" dur="2s" repeatCount="indefinite" />
 </circle>
 <circle cx="445.5" cy="40.5" r="40.5" fill="#5C5C5C"/>
-<circle cx="446" cy="40" r="32" fill="#FDE7C6">
-<animate attributeName="fill" values="#FDE7C6;#FF9900;#FDE7C6" dur="1.5s" repeatCount="indefinite" />
+<circle cx="446" cy="40" r="32" fill="#FCFCFC">
+<animate attributeName="fill" values="#FCFCFC;#FFD600;#FCFCFC" dur="2s" repeatCount="indefinite" />
 </circle>
 <rect x="58" y="674" width="105" height="39" rx="10" fill="#5C5C5C"/>
 <rect x="394" y="674" width="105" height="39" rx="10" fill="#5C5C5C"/>
