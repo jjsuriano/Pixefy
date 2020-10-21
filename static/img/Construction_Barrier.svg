@@ -1,37 +1,41 @@
-<svg width="556" height="728" viewBox="0 0 556 728" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="556" height="732" viewBox="0 0 556 732" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
 <rect x="406" y="81" width="80" height="616" rx="10" fill="#5C5C5C"/>
 <rect x="70" y="81" width="80" height="616" rx="10" fill="#5C5C5C"/>
 <rect y="106" width="556" height="222" rx="10" fill="#F58839"/>
-<rect x="21" y="126" width="513" height="182" rx="5" fill="#EFEFEF"/>
+<rect x="25" y="130" width="506" height="175" rx="5" fill="#EFEFEF"/>
 <path d="M485 308H400.5L534 174.5V259L485 308Z" fill="#F58839"/>
 <path d="M319 308H234.5L416 126H501L319 308Z" fill="#F58839"/>
 <path d="M21 264V179L74.5 126H158.5L21 264Z" fill="#F58839"/>
 <path d="M146 308H61.5L243.5 126H327.5L146 308Z" fill="#F58839"/>
 <rect y="380" width="556" height="222" rx="10" fill="#F58839"/>
-<g filter="url(#filter0_f)">
-<rect x="15" y="710" width="536" height="10" rx="5" fill="#0E0E0E" fill-opacity="0.08"/>
-</g>
-<rect x="21" y="400" width="513" height="182" rx="5" fill="#EFEFEF"/>
+<rect x="25" y="403" width="506" height="175" rx="5" fill="#EFEFEF"/>
 <path d="M485 582H400.5L534 448.5V533L485 582Z" fill="#F58839"/>
 <path d="M319 582H234.5L416 400H501L319 582Z" fill="#F58839"/>
 <path d="M21 538V453L74.5 400H158.5L21 538Z" fill="#F58839"/>
 <path d="M146 582H61.5L243.5 400H327.5L146 582Z" fill="#F58839"/>
 <circle cx="109.5" cy="40.5" r="40.5" fill="#5C5C5C"/>
-<circle cx="109" cy="40" r="32" fill="#F9BA5C"/>
+<circle cx="109" cy="40" r="32" fill="#FDE7C6">
+    <animate attributeName="fill" values="#FDE7C6;#FF9900;#FDE7C6" dur="1.5s" repeatCount="indefinite" />
+</circle>
 <circle cx="445.5" cy="40.5" r="40.5" fill="#5C5C5C"/>
-<circle cx="446" cy="40" r="32" fill="#F9BA5C"/>
+<circle cx="446" cy="40" r="32" fill="#FDE7C6">
+<animate attributeName="fill" values="#FDE7C6;#FF9900;#FDE7C6" dur="1.5s" repeatCount="indefinite" />
+</circle>
 <rect x="58" y="674" width="105" height="39" rx="10" fill="#5C5C5C"/>
 <rect x="394" y="674" width="105" height="39" rx="10" fill="#5C5C5C"/>
+<g filter="url(#filter0_f)">
+<rect x="9" y="710" width="536" height="15" rx="7.5" fill="#AAAAAA" fill-opacity="0.23"/>
+</g>
 </g>
 <defs>
-<filter id="filter0_f" x="5" y="700" width="556" height="30" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_f" x="-1" y="700" width="556" height="35" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur"/>
 </filter>
 <clipPath id="clip0">
-<rect width="556" height="728" fill="white"/>
+<rect width="556" height="732" fill="white"/>
 </clipPath>
 </defs>
 </svg>
