@@ -14,6 +14,13 @@ body {
   font-size: 16px;
 }
 
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 a {
   text-decoration: none;
   color: #242021;
@@ -86,15 +93,15 @@ nav {
 
 .nav--inactive {
   background-color: #f5f5f7;
-  -webkit-transition: background-color 0.15s ease-in-out;
-  transition: background-color 0.15s ease-in-out;
+  -webkit-transition: background 0.1s ease-in-out;
+  transition: background 0.1s ease-in-out;
   border-bottom: 1px solid transparent;
 }
 
 .nav--active {
   background-color: rgba(237, 237, 237, 0.5);
-  -webkit-transition: background-color 0.5s ease-in-out;
-  transition: background-color 0.5s ease-in-out;
+  -webkit-transition: background 0.15s ease-in-out;
+  transition: background 0.15s ease-in-out;
   border-bottom: 1px solid rgba(207, 207, 207, 0.25);
 }
 
@@ -175,5 +182,23 @@ footer {
   font-weight: 200;
   font-size: 0.8rem;
   text-align: center;
+}
+
+@media all and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
