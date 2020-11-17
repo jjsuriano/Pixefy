@@ -3,7 +3,7 @@ $secondary-text: #86868b;
 
 $main-background: #f5f5f7;
 
-$blue: #034f81;
+$blue: #044f81;
 
 * {
   box-sizing: border-box;
@@ -66,7 +66,8 @@ nav {
 
   font-weight: 200;
 
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
+  z-index: 5;
 }
 
 .nav-container {
@@ -129,6 +130,8 @@ main {
   width: 100%;
 
   padding-top: 80px;
+
+  z-index: -1;
 }
 
 .main-container {
